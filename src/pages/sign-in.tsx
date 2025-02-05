@@ -3,7 +3,7 @@ import { Flex, Text } from "@chakra-ui/react";
 
 const Signin = () => {
   return (
-    <div style={{display:"flex",justifyContent: "center", alignItems:"center", margin:"auto",height:"100vh"}}
+    <div style={{display:"flex",justifyContent: "center", alignItems:"center", margin:"auto",height:"100vh",minHeight:"100vh"}}
     >
       <Text 
         fontSize="xl" 
