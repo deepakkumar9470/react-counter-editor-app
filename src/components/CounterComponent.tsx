@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-import { Box, Button, ButtonGroup, Heading, HStack, VStack } from "@chakra-ui/react"
+import { Box, Button, ButtonGroup, Heading, VStack } from "@chakra-ui/react"
 import { BiPlus, BiMinus, BiReset } from "react-icons/bi"
 import { useSpring, animated } from "@react-spring/web";
 const CounterComponent = () => {

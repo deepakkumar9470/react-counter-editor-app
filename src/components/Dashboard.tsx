@@ -15,7 +15,7 @@ const Dashboard = () => {
         }
     }, []);
 
-    const pieChartData = Object.entries(userData).map(([key, value]) => ({
+    const pieChartData = Object.entries(userData).map(([__, value]) => ({
         name: String(value), 
         value: typeof value === "string" ? value.length : Number(value) 
     }));
